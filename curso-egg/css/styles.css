@@ -1,0 +1,141 @@
+/* Encuentro #2*/
+p{
+  margin: 15px;
+  color: gray;
+  background: #E9DF7B;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+p>strong{
+  color: black;
+  background-color: pink;
+}
+
+.bodyclase2{
+  width: 60%;
+  height: 400px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  background-color: white;
+  border: solid 5px #0A936F;
+  border-radius: 10px;
+  background-image: url("https://i.pinimg.com/564x/f8/ee/25/f8ee25d9f41a0cd8fef32e5862e33529--perry-the-platypus-disney-channel.jpg");
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: 99%;
+}
+
+.miclase{
+  color: black;
+  font-style: italic;
+}
+
+#myid{
+  color: black;
+  background-color: pink;
+  font-size: 20px;
+}
+
+h1{
+  color: #10A374;
+  background-color: rgb(35, 92, 74);
+  text-align: center;
+  padding: 10px;
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+  margin: 15px;
+  border-radius: 10px;
+}  
+
+h2 {
+    text-align: center;
+}
+ol>li>h2{
+    text-align: left;
+}
+
+/* Encuentro #3*/
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 5px;
+    display: none;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 1px 11px 0px rgb(167 167 167 / 75%);
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 15px; 
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+  }
+
+
+  .container-nav {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .row-nav {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 15px; 
+    box-shadow: 0px 1px 11px 0px rgb(167 167 167 / 75%);
+  }
+
+  .colum-nav{
+    flex: 1;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    font-size: 25px;
+  }
+
+
+  .active{
+    display: block;
+  }
+
+  .activenav{
+    color: white;
+    border: solid 1px black;
+    background-color: black;
+    border-radius: 15px;
+    font-size: 35px;
+  }
+
+
+  /* encuentro #3*/
+
+  .container3 {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+   
+  }
+
+
+  

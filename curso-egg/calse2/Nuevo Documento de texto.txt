@@ -1,0 +1,90 @@
+<html>
+  <head>
+    <title>Ejemplo de CSS</title>
+  </head>
+  <body>
+    <h1>Introducción a CSS</h1>
+    <p><strong>CSS</strong> es un lenguaje que se utiliza para dar estilo a los <strong class="miclase">HTML</strong> con elementos como colores,  fuentes yespaciado para generar  <strong id="myid"> páginas</strong> web visualmente atractivas.</p>
+    
+   <!-- <table>
+      <tr>
+        <td>Lunes</td>
+        <td>Martes</td>
+        <td>Miercoles</td>
+        <td>Jueves</td>
+      </tr>
+      <tr>
+        <td>7pm</td>
+        <td>7pm</td>
+        <td>7pm</td>
+        <td>7pm</td>
+      </tr>
+       <tr>
+        <td>9pm</td>
+        <td>9pm</td>
+        <td>9pm</td>
+        <td>9pm</td>
+      </tr>
+      
+    </table> -->
+    
+  </body>
+</html>
+
+
+p{
+  margin: 15px;
+  color: gray;
+  background: #E9DF7B;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+p>strong{
+  color: black;
+  background-color: pink;
+}
+
+body{
+  width: 60%;
+  height: 200px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  background-color: white;
+  border: solid 5px #0A936F;
+  border-radius: 10px;
+  background-image: url("https://i.pinimg.com/564x/f8/ee/25/f8ee25d9f41a0cd8fef32e5862e33529--perry-the-platypus-disney-channel.jpg");
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: 90%;
+}
+
+.miclase{
+  color: black;
+  font-style: italic;
+}
+
+#myid{
+  color: black;
+  background-color: pink;
+  font-size: 20px;
+}
+
+h1{
+  color: #10A374;
+  background-color: rgb(35, 92, 74);
+  text-align: center;
+  padding: 10px;
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+
+
+https://codepen.io/pen/

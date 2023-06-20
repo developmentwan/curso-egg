@@ -1,0 +1,23 @@
+div{
+    width: 400px;
+    height: 200px;
+}
+
+#primero{
+    background-color: red;
+    margin: 40px;
+    padding: 5px;
+    width: 500px;
+    height: 300px;
+}
+
+#segundo{
+    background-color: green;
+    margin: 30px;
+    padding: 20px;
+}
+
+#tercero{
+    background-color: purple;
+} 
+
